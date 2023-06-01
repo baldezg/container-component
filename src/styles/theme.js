@@ -1,6 +1,6 @@
 const theme = {
     colors: {
-      dark: '#000000',  
+      dark: '#141414',  
       tangerine: '#FF9966',
       secondary: '#FD6215',
       info: '#17a2b8',

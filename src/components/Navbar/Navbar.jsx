@@ -7,17 +7,13 @@ export const Navbar = () => {
    
     return (
         <S.NavbarContainer>
-            <S.UlElement>
-                <li>
-                    <S.Logo>LOGO</S.Logo></li>  
-                <li>
+            <S.Logo src="../../../public\logo.png" alt="Logo"/>
                 <S.SearchArea>
                     <S.Input></S.Input>
                     <S.Button>
                     <SearchIcon />
                     </S.Button>
                 </S.SearchArea>
-                </li>
                 <S.LinksList>
                     {links.map((link) => {
                         return(
@@ -27,8 +23,6 @@ export const Navbar = () => {
                         )
                     })}
                 </S.LinksList>
-
-            </S.UlElement>
         </S.NavbarContainer>
     )
 }
