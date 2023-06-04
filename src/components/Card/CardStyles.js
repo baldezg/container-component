@@ -143,14 +143,14 @@ export const BackContent = styled.div`
 `;
 
 export const Badge = styled.button`
-background-color: #000000;
+background-color: #141414;
 padding: 2px 10px;
 border-radius: 10px;
 backdrop-filter: blur(2px);
 display: inline-block;
 width:40px;
 border: none;
-color: #fff;
+color: #f4f4f4;
 cursor: pointer;
 `;
 
@@ -167,6 +167,7 @@ export const CardTitle = styled.div`
   max-width: 100%;
   display: flex;
   justify-content: space-between;
+  color: #f4f4f4;
 `;
 
 export const Title = styled.p`
